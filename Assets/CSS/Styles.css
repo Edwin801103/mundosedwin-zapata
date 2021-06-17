@@ -1,22 +1,47 @@
-
-
-#header{
-background-image: url("../Imagenes/slider-1.png");    
-height: 768px;
-width: 1366px;
-color: white;
+body{
+    margin: 1px;
 }
-#button{
+#slider1{
+    background-image: url(/Assets/Imagenes/slider-1.png);
+    background: transparent url(/Assets/Imagenes/slider-1.png) 0% 0% no-repeat padding-box;
+    color: white;
+    width: 1366px;
+    height: 768px;
+    clear: both;
+    content: '';
+    display: table;
+    opacity: 1;  
+}
+.logo{
+   padding: auto;
+}
+.menu{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: end
+
+}
+.menu li a{
+    display: flexbox;
+    padding: 40px 21px;
+    color: white;
+    text-decoration-style: none;
+}
+
+
+.button{ 
     top: 480px;
     left: 101px;
     width: 144px;
     height: 48px;
-    background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
     background: #E0752F 0% 0% no-repeat padding-box;
     border-radius: 25px;
     opacity: 1;
-}
-#title{
+    }
+
+.title{
     top: 254px;
     left: 101px;
     width: 554px;
